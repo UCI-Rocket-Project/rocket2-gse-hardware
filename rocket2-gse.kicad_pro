@@ -189,12 +189,223 @@
   "cvpcb": {
     "equivalence_files": []
   },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "rocket2-gse.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -236,9 +447,132 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": []
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "94c3ca0c-6aa1-4bff-ab47-a0279d059895",
+      ""
+    ],
+    [
+      "c5ff2e84-83f2-4a3b-a723-4a8fafb17516",
+      "Solenoid0"
+    ],
+    [
+      "8cff867b-cd1d-49f1-9509-33897943b226",
+      "E-Match0"
+    ],
+    [
+      "d516bc2c-7c9a-409f-a6cb-35867ffff590",
+      "E-Match1"
+    ],
+    [
+      "4cc8429a-0fac-434f-bf0f-9caf06f3f22f",
+      "Solenoid1"
+    ],
+    [
+      "2da0d239-17d4-45fb-9888-588690697a0b",
+      "Solenoid2"
+    ],
+    [
+      "37233c0c-a8ed-434c-a74b-38f0f9017587",
+      "Solenoid3"
+    ],
+    [
+      "bdb59aba-9ed6-493a-839a-5fc2d21bc3dc",
+      "Solenoid4"
+    ],
+    [
+      "ffc91377-470d-4cda-b10d-d9c36ddf44f5",
+      "Solenoid5"
+    ],
+    [
+      "913477b9-83df-49dd-a419-1b57b71bebd5",
+      "Solenoid6"
+    ],
+    [
+      "2a714ca0-36db-4d0e-a010-3fefcfa0590e",
+      "Solenoid7"
+    ],
+    [
+      "3a0ce878-a305-4d14-89b9-2463ba92207c",
+      "Solenoid8"
+    ],
+    [
+      "1faa2cbc-bc03-4fd8-8b2e-decffe3e6bf4",
+      "PT0"
+    ],
+    [
+      "ac09374e-4b8d-4dc7-9c55-4eebaa32761b",
+      "PT1"
+    ],
+    [
+      "628a6658-25e5-47f8-b1a9-0976f0599903",
+      "PT2"
+    ],
+    [
+      "11d2392f-2c30-45c6-941a-c9837f5de151",
+      "PT3"
+    ],
+    [
+      "4591588c-fe98-4bc3-b825-9775653cd8cd",
+      "PT4"
+    ],
+    [
+      "e37acb46-d41c-43ff-890c-4e9139fb294b",
+      "TC0"
+    ],
+    [
+      "64b31f2e-4849-43cf-bb2a-fe1c71693eda",
+      "TC1"
+    ],
+    [
+      "c7d5fc99-8b63-4a42-996c-97b63a613c71",
+      "TC2"
+    ],
+    [
+      "339cdff9-22b3-471e-94e8-a08c3a88ebe1",
+      "TC3"
+    ],
+    [
+      "9b4ffa27-b22d-4c40-bf79-fb37f5b9ee9d",
+      "TC4"
+    ],
+    [
+      "d496d162-84e0-4206-8055-60227dc94527",
+      "TC5"
+    ]
+  ],
   "text_variables": {}
 }
