@@ -65,41 +65,6 @@
         )
       )
     )
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -3448,8 +3413,8 @@
     (property "Part #" "Generic 20K 1% 0402 Resistor" (at 364.49 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7b9d41a2-2592-4436-a2b8-2a699cce480b))
     (pin "1" (uuid 7f77469d-d91f-4738-adda-1b22a0016b2a))
+    (pin "2" (uuid 7b9d41a2-2592-4436-a2b8-2a699cce480b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -3533,8 +3498,8 @@
     (property "Part #" "Generic 100K 1% 0402 Resistor" (at 283.21 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d962fe8b-5735-4627-9063-226d08745ca7))
     (pin "1" (uuid 38a67f0f-030c-4100-b7d5-0518fd12f532))
+    (pin "2" (uuid d962fe8b-5735-4627-9063-226d08745ca7))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -3568,9 +3533,9 @@
     (property "Part #" "DMG3402L" (at 198.12 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 2d8b2c36-3a4f-4943-8cc5-7ccb19f31a12))
     (pin "1" (uuid b0438faf-4a93-432f-ad10-1b6cf61e1b99))
     (pin "2" (uuid 826dd87b-171c-41b2-9925-33ac3755c6c5))
+    (pin "3" (uuid 2d8b2c36-3a4f-4943-8cc5-7ccb19f31a12))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -3629,9 +3594,9 @@
     (property "Part #" "DMP3099L" (at 335.28 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid bb9b597b-107c-4a37-a5a5-acaa18437d71))
     (pin "2" (uuid f54237da-214a-4c38-affe-ec8d8d2b028f))
     (pin "3" (uuid 04fedf78-a776-439e-8df4-d225f1538f93))
-    (pin "1" (uuid bb9b597b-107c-4a37-a5a5-acaa18437d71))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -3769,8 +3734,8 @@
     (property "Part #" "Generic 10nF 6.3V X7R 0402 MLCC" (at 116.84 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 619916cb-d14a-4504-a04f-24e2aa52274b))
     (pin "1" (uuid 7f7f9841-e5f5-4e9f-9d94-e35e38348fea))
+    (pin "2" (uuid 619916cb-d14a-4504-a04f-24e2aa52274b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -3874,8 +3839,8 @@
     (property "Part #" "Generic 15K 1% 0402 Resistor" (at 283.21 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 19d75183-ebb9-4687-bbc6-aeabd0f9d423))
     (pin "1" (uuid 0587bfea-5f33-42dc-a349-d122bd333ef4))
+    (pin "2" (uuid 19d75183-ebb9-4687-bbc6-aeabd0f9d423))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -3909,9 +3874,9 @@
     (property "Part #" "~" (at 270.51 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 0cfc0c1c-9545-4ef1-9cb4-7d27a796d581))
-    (pin "2" (uuid c15954e3-2bdc-49e4-b1cd-9f7d9a65f1fb))
     (pin "1" (uuid 52fbbb24-26ff-4bd1-927e-c86d11bdad48))
+    (pin "2" (uuid c15954e3-2bdc-49e4-b1cd-9f7d9a65f1fb))
+    (pin "3" (uuid 0cfc0c1c-9545-4ef1-9cb4-7d27a796d581))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -3942,8 +3907,8 @@
     (property "Part #" "Generic 4.7uF 6.3V X7R 0603 MLCC" (at 17.78 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7e01e339-57ab-4dd5-b970-b2da4c28189b))
     (pin "1" (uuid 39df373d-00b7-4fee-a25b-c94af6161444))
+    (pin "2" (uuid 7e01e339-57ab-4dd5-b970-b2da4c28189b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -3999,8 +3964,8 @@
     (property "Part #" "Generic 15K 1% 0402 Resistor" (at 264.16 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ab2ab421-55ed-4d4a-92ce-3feaf47e6dc0))
     (pin "1" (uuid 4d91846e-4ece-4e0a-a496-95e96d440116))
+    (pin "2" (uuid ab2ab421-55ed-4d4a-92ce-3feaf47e6dc0))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -4141,8 +4106,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 63.5 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a5a547c7-a8f3-4ed3-9282-18f37310848f))
     (pin "1" (uuid fd7c35be-cac8-4623-a276-ee8f7264ed5d))
+    (pin "2" (uuid a5a547c7-a8f3-4ed3-9282-18f37310848f))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -4287,8 +4252,8 @@
     (property "Part #" "Generic 3.3K 1% 0402 Resistor" (at 303.53 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 80f35675-4d47-44e3-a7c5-778465df09ad))
     (pin "1" (uuid f37176d4-8999-4783-92fd-8d2c96d45df4))
+    (pin "2" (uuid 80f35675-4d47-44e3-a7c5-778465df09ad))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -4322,8 +4287,8 @@
     (property "Part #" "Generic 4.7uF 6.3V X7R 0603 MLCC" (at 212.09 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c637e870-9a56-4b47-a8d8-fa151804c774))
     (pin "1" (uuid e45356e7-2fcf-404a-a62a-e05704ae16dc))
+    (pin "2" (uuid c637e870-9a56-4b47-a8d8-fa151804c774))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -4446,8 +4411,8 @@
     (property "Part #" "Generic 1K 1% 0402 Resistor" (at 389.89 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 876a90b6-cd11-47a4-b113-1a3df43e34aa))
     (pin "1" (uuid e8437905-6e4a-4cac-ade9-cd100b45cae0))
+    (pin "2" (uuid 876a90b6-cd11-47a4-b113-1a3df43e34aa))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -4506,8 +4471,8 @@
     (property "Part #" "Generic 10K 1% 0402 Resistor" (at 185.42 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6da095a8-7ff8-4153-a49c-eece6cf27cff))
     (pin "1" (uuid 9f03be4c-98cb-489f-97ff-05e363d6844f))
+    (pin "2" (uuid 6da095a8-7ff8-4153-a49c-eece6cf27cff))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -4515,31 +4480,6 @@
         )
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
           (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 365.76 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3dd9159d-30d0-423b-b9d9-999c699ebd63)
-    (property "Reference" "#PWR049" (at 365.76 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 365.76 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 365.76 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 365.76 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0d1d17e2-b986-4cad-9826-012a003517d1))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -4680,62 +4620,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 365.76 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 42edd7db-3534-4809-a4ac-eff8c2af719e)
-    (property "Reference" "TP4" (at 367.03 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "GND" (at 367.03 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm" (at 360.68 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 360.68 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "~" (at 365.76 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part #" "~" (at 365.76 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2abf6834-7d09-4b51-a691-3cc36eb9803a))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "TP4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+24V") (at 335.28 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4636f0bb-aa53-4b71-b3bc-f04dfba734f9)
-    (property "Reference" "#PWR050" (at 335.28 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (at 335.28 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 335.28 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 335.28 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8622f73f-89c7-48e7-aa55-863bb6e5a7a0))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 330.2 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a83abb7-597a-40f8-9f28-ee2089008539)
@@ -4756,37 +4640,6 @@
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
           (reference "#PWR037") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 345.44 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4c4a6512-363a-4f02-8e14-2f902454d7bb)
-    (property "Reference" "TP2" (at 346.71 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "+5V" (at 346.71 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm" (at 340.36 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 340.36 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "~" (at 345.44 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part #" "~" (at 345.44 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 828748b8-0ee2-4c63-9660-619a2748151a))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "TP2") (unit 1)
         )
       )
     )
@@ -4813,8 +4666,8 @@
     (property "Part #" "Generic 100K 1% 0402 Resistor" (at 264.16 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f7948f2e-e8a9-4bf7-b5d4-080a1509563d))
     (pin "1" (uuid 9dd66a7b-9b16-4b2e-ac5d-191eb6a5e170))
+    (pin "2" (uuid f7948f2e-e8a9-4bf7-b5d4-080a1509563d))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -4822,31 +4675,6 @@
         )
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
           (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 345.44 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4f599361-f410-47fe-948d-9ce882ab4989)
-    (property "Reference" "#PWR051" (at 345.44 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 345.44 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 345.44 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 345.44 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 79fcaa0e-9b84-46ea-a251-788ceb7dff25))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4873,8 +4701,8 @@
     (property "Part #" "Generic 22uF 35V X5R 1206 MLCC" (at 303.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1397c4ad-6857-48a2-be97-9bf7571ad06a))
     (pin "1" (uuid 70e8a832-4953-4ad8-831e-280ce394301f))
+    (pin "2" (uuid 1397c4ad-6857-48a2-be97-9bf7571ad06a))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -4965,8 +4793,8 @@
     (property "Part #" "Generic 1uF 6.3V X7R 0402 MLCC" (at 93.98 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e11eb7ae-5f14-4de1-925d-a81cb7410d46))
     (pin "1" (uuid 401816cf-eca3-4140-8b2e-f65dc41e6098))
+    (pin "2" (uuid e11eb7ae-5f14-4de1-925d-a81cb7410d46))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -4997,14 +4825,14 @@
     (property "Part #" "LM3485" (at 339.09 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
+    (pin "1" (uuid 7cb9248f-e36c-47f7-9468-80a9db0bd588))
+    (pin "2" (uuid 0a5668ec-2c51-448a-8310-cecd33c8c0b7))
+    (pin "3" (uuid cffcd1c1-4287-425f-b57d-c9b5afa7f285))
+    (pin "4" (uuid 7ccc896f-0326-48fc-a9de-191d0a221d91))
+    (pin "5" (uuid f7ee5172-3507-483e-8949-d807e0adf6f5))
+    (pin "6" (uuid a7138448-ce33-444f-9b3a-34fedbcd821f))
     (pin "7" (uuid e02178a0-aeac-40de-96f4-57c3962693c9))
     (pin "8" (uuid ffe10ac8-548a-42fd-a982-25ad26f1b98c))
-    (pin "5" (uuid f7ee5172-3507-483e-8949-d807e0adf6f5))
-    (pin "1" (uuid 7cb9248f-e36c-47f7-9468-80a9db0bd588))
-    (pin "6" (uuid a7138448-ce33-444f-9b3a-34fedbcd821f))
-    (pin "3" (uuid cffcd1c1-4287-425f-b57d-c9b5afa7f285))
-    (pin "2" (uuid 0a5668ec-2c51-448a-8310-cecd33c8c0b7))
-    (pin "4" (uuid 7ccc896f-0326-48fc-a9de-191d0a221d91))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5060,8 +4888,8 @@
     (property "Part #" "Generic 470R 1% 0402 Resistor" (at 389.89 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a761e10a-9b5a-47de-9a49-f3666a6aabdb))
     (pin "1" (uuid 19ec8e05-4820-4080-b7e1-41172b024ba1))
+    (pin "2" (uuid a761e10a-9b5a-47de-9a49-f3666a6aabdb))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -5127,8 +4955,8 @@
     (property "Part #" "Generic 10K 1% 0402 Resistor" (at 30.48 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e0735472-fd92-4d44-8737-2350b3ed8a2b))
     (pin "1" (uuid 6dd8642e-f149-4c62-af29-ad0cc63265b9))
+    (pin "2" (uuid e0735472-fd92-4d44-8737-2350b3ed8a2b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -5162,70 +4990,70 @@
     (property "Part #" "STM32F105RCT6" (at 88.5541 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "33" (uuid a7559908-d290-469f-984d-58a1580c73a4))
-    (pin "21" (uuid c6eb83c1-eec6-4204-aa20-e6ba71c55a5e))
-    (pin "23" (uuid 046a6ebd-68be-4f39-9be5-88f2c99c8663))
-    (pin "31" (uuid 544a0dd6-0f31-4cb2-9a45-9f02958e388c))
-    (pin "30" (uuid 38e62357-65f5-45ee-8922-47305e0af6e0))
-    (pin "44" (uuid 5a2d78e7-c93e-404a-b68b-ca2269110186))
-    (pin "27" (uuid 41878304-3fff-4e2b-81c1-8c142790338c))
-    (pin "29" (uuid 139d2efa-55d3-4fd0-b4d9-693b70300823))
+    (pin "1" (uuid fb51bead-e77f-4a4e-90ce-6b294d950766))
+    (pin "10" (uuid 3b38aa76-fa72-49ff-8cc8-1f48c30daa07))
+    (pin "11" (uuid 6db5d481-d545-428a-8ef0-5fcbc3739724))
+    (pin "12" (uuid b7aa8d92-454e-4778-9510-9e94d0e1a9be))
+    (pin "13" (uuid e9a55c85-e236-4e33-b2bf-60dc5453eaf4))
+    (pin "14" (uuid 032718b6-39eb-4ce7-be58-e024965bacb8))
+    (pin "15" (uuid 17af5ddf-817a-41bc-ada1-0a707a2fe059))
+    (pin "16" (uuid 284ad560-9eb6-40db-a674-32b721536055))
+    (pin "17" (uuid f91e9833-6125-4900-85b3-054a0362e545))
     (pin "18" (uuid e643acf2-32d1-4954-8527-d99fc72d88d2))
+    (pin "19" (uuid f58f47c5-d21a-4ba5-a810-55534bce2894))
+    (pin "2" (uuid 86a38231-cf2c-4da7-8ef2-4dd0454bb757))
+    (pin "20" (uuid 3b510576-e3f0-4b3d-9247-827514f64c70))
+    (pin "21" (uuid c6eb83c1-eec6-4204-aa20-e6ba71c55a5e))
+    (pin "22" (uuid cac11f1a-fc29-46f1-80ed-8ec1922877b0))
+    (pin "23" (uuid 046a6ebd-68be-4f39-9be5-88f2c99c8663))
+    (pin "24" (uuid 8285bcb1-0bbb-44b4-90b9-83cc98654582))
+    (pin "25" (uuid 0e302026-c1c0-4c5f-8e62-9044fe65e73b))
+    (pin "26" (uuid 805c1864-b212-4ab2-a029-ea444b99c049))
+    (pin "27" (uuid 41878304-3fff-4e2b-81c1-8c142790338c))
+    (pin "28" (uuid 3264aea9-9e57-4b4b-b06b-bbb34ae4903a))
+    (pin "29" (uuid 139d2efa-55d3-4fd0-b4d9-693b70300823))
+    (pin "3" (uuid ffaeea2f-970e-4320-8278-5ff4572ca0b4))
+    (pin "30" (uuid 38e62357-65f5-45ee-8922-47305e0af6e0))
+    (pin "31" (uuid 544a0dd6-0f31-4cb2-9a45-9f02958e388c))
+    (pin "32" (uuid 978e30f2-da1f-4adf-8842-9a96c897178f))
+    (pin "33" (uuid a7559908-d290-469f-984d-58a1580c73a4))
+    (pin "34" (uuid c430890e-9b58-425e-9c62-c47014ba2da6))
+    (pin "35" (uuid c35f71af-2dab-4a74-848f-858374fe668f))
+    (pin "36" (uuid f12f34b8-41be-4de0-877a-af1203ca84de))
     (pin "37" (uuid c2961c93-5940-476d-8d98-870a30546024))
+    (pin "38" (uuid 42006ed9-61f8-4adc-84d6-d4fefb3fcb33))
+    (pin "39" (uuid b08c422b-e95d-4683-ab6b-883de15b3940))
+    (pin "4" (uuid ff2e5f8c-dfc6-4e57-9556-52a77c146184))
+    (pin "40" (uuid 5951a3af-ed4f-4b50-b4bc-1ff7650d3f36))
+    (pin "41" (uuid 272c818a-caaf-428a-bf15-821e314e90d3))
+    (pin "42" (uuid 9191e278-8d0a-49d3-9c1d-16ec6d5143ce))
+    (pin "43" (uuid 69fab79b-e77e-48cd-97ed-c547fe3df807))
+    (pin "44" (uuid 5a2d78e7-c93e-404a-b68b-ca2269110186))
+    (pin "45" (uuid 8fcbbd86-0173-4178-8e8a-b9ae91818a16))
     (pin "46" (uuid ba07f529-0f27-48b1-85fd-116c65d83d12))
+    (pin "47" (uuid 56e04ccb-7d0d-4511-9e27-a05452d690f0))
+    (pin "48" (uuid 97c15b98-c403-4743-8fda-d53226f96eb3))
     (pin "49" (uuid 750e06ec-bdff-471a-b80b-6a60778bc236))
     (pin "5" (uuid a57a17de-6332-4557-8a34-9db39a1171ea))
     (pin "50" (uuid 04a3b9c5-0585-4b39-a0af-7e80b93ac514))
     (pin "51" (uuid 38898117-627b-46c5-aba7-806d4d7b15d9))
-    (pin "53" (uuid ccb11c18-0287-4375-97e8-a0f175819039))
-    (pin "4" (uuid ff2e5f8c-dfc6-4e57-9556-52a77c146184))
-    (pin "35" (uuid c35f71af-2dab-4a74-848f-858374fe668f))
-    (pin "43" (uuid 69fab79b-e77e-48cd-97ed-c547fe3df807))
-    (pin "54" (uuid 7497e2ea-a6c6-4396-9cfa-ff5f5b795f54))
-    (pin "60" (uuid db9ef616-47a9-45c3-a929-5add7f25ac49))
-    (pin "17" (uuid f91e9833-6125-4900-85b3-054a0362e545))
-    (pin "24" (uuid 8285bcb1-0bbb-44b4-90b9-83cc98654582))
-    (pin "13" (uuid e9a55c85-e236-4e33-b2bf-60dc5453eaf4))
-    (pin "15" (uuid 17af5ddf-817a-41bc-ada1-0a707a2fe059))
-    (pin "14" (uuid 032718b6-39eb-4ce7-be58-e024965bacb8))
-    (pin "32" (uuid 978e30f2-da1f-4adf-8842-9a96c897178f))
-    (pin "36" (uuid f12f34b8-41be-4de0-877a-af1203ca84de))
-    (pin "28" (uuid 3264aea9-9e57-4b4b-b06b-bbb34ae4903a))
-    (pin "61" (uuid 6230169d-fb24-49e5-b93f-65eef06aa14b))
-    (pin "25" (uuid 0e302026-c1c0-4c5f-8e62-9044fe65e73b))
-    (pin "11" (uuid 6db5d481-d545-428a-8ef0-5fcbc3739724))
-    (pin "22" (uuid cac11f1a-fc29-46f1-80ed-8ec1922877b0))
-    (pin "56" (uuid ae62ef73-be8e-4bdf-8d8e-609f4eda625c))
-    (pin "62" (uuid b327619b-ae82-4362-84fa-dfffea822eef))
-    (pin "19" (uuid f58f47c5-d21a-4ba5-a810-55534bce2894))
-    (pin "58" (uuid 935f04e5-3e5d-487f-9c1d-59d88352eebc))
-    (pin "6" (uuid 90a4b464-7e8c-40c9-8198-3a1e31e5ac8f))
-    (pin "2" (uuid 86a38231-cf2c-4da7-8ef2-4dd0454bb757))
-    (pin "12" (uuid b7aa8d92-454e-4778-9510-9e94d0e1a9be))
-    (pin "38" (uuid 42006ed9-61f8-4adc-84d6-d4fefb3fcb33))
-    (pin "10" (uuid 3b38aa76-fa72-49ff-8cc8-1f48c30daa07))
-    (pin "40" (uuid 5951a3af-ed4f-4b50-b4bc-1ff7650d3f36))
-    (pin "41" (uuid 272c818a-caaf-428a-bf15-821e314e90d3))
-    (pin "48" (uuid 97c15b98-c403-4743-8fda-d53226f96eb3))
     (pin "52" (uuid c29052f8-a73d-49c2-90ca-83779817b315))
+    (pin "53" (uuid ccb11c18-0287-4375-97e8-a0f175819039))
+    (pin "54" (uuid 7497e2ea-a6c6-4396-9cfa-ff5f5b795f54))
     (pin "55" (uuid 315d824a-9b4e-46d9-b74e-6f2f08e0211f))
+    (pin "56" (uuid ae62ef73-be8e-4bdf-8d8e-609f4eda625c))
     (pin "57" (uuid 071604db-e953-4196-9012-c612e3222c61))
+    (pin "58" (uuid 935f04e5-3e5d-487f-9c1d-59d88352eebc))
     (pin "59" (uuid b9831329-84f8-42be-b43d-74d54e49c099))
-    (pin "39" (uuid b08c422b-e95d-4683-ab6b-883de15b3940))
-    (pin "20" (uuid 3b510576-e3f0-4b3d-9247-827514f64c70))
-    (pin "42" (uuid 9191e278-8d0a-49d3-9c1d-16ec6d5143ce))
-    (pin "45" (uuid 8fcbbd86-0173-4178-8e8a-b9ae91818a16))
-    (pin "16" (uuid 284ad560-9eb6-40db-a674-32b721536055))
-    (pin "34" (uuid c430890e-9b58-425e-9c62-c47014ba2da6))
-    (pin "3" (uuid ffaeea2f-970e-4320-8278-5ff4572ca0b4))
-    (pin "47" (uuid 56e04ccb-7d0d-4511-9e27-a05452d690f0))
-    (pin "1" (uuid fb51bead-e77f-4a4e-90ce-6b294d950766))
-    (pin "26" (uuid 805c1864-b212-4ab2-a029-ea444b99c049))
-    (pin "8" (uuid b7d2e018-a1b7-4610-9833-09567a18ed7d))
+    (pin "6" (uuid 90a4b464-7e8c-40c9-8198-3a1e31e5ac8f))
+    (pin "60" (uuid db9ef616-47a9-45c3-a929-5add7f25ac49))
+    (pin "61" (uuid 6230169d-fb24-49e5-b93f-65eef06aa14b))
+    (pin "62" (uuid b327619b-ae82-4362-84fa-dfffea822eef))
     (pin "63" (uuid b09858c7-ebf6-41c7-a9a0-13824709989d))
-    (pin "7" (uuid 8d70b4a4-4f05-4c07-8742-08637b439899))
-    (pin "9" (uuid 2a4d654f-a21d-4a16-9335-7ce6df0fa391))
     (pin "64" (uuid e7a3d38d-3e07-4448-b348-8690973f5b37))
+    (pin "7" (uuid 8d70b4a4-4f05-4c07-8742-08637b439899))
+    (pin "8" (uuid b7d2e018-a1b7-4610-9833-09567a18ed7d))
+    (pin "9" (uuid 2a4d654f-a21d-4a16-9335-7ce6df0fa391))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5495,30 +5323,30 @@
     (property "Part #" "USB4105-GF-A" (at 180.34 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "B6" (uuid 9d790736-636b-4665-b7c8-363786df6d0b))
-    (pin "A11" (uuid c692588a-a0df-4dc5-ad03-4974edb60d1c))
-    (pin "A3" (uuid e6a40a41-e223-46bf-8a1a-df51950ee40a))
-    (pin "B10" (uuid d72826d0-8889-4cda-af83-db67c7dd4300))
-    (pin "A12" (uuid 033705d1-ce07-4f1e-98d7-93ad3edf52d5))
-    (pin "B12" (uuid 3e4744e9-794e-437d-bcf5-3b16b174153c))
-    (pin "A5" (uuid c3377ed3-5725-47cb-ba72-fbec6358aff6))
-    (pin "B2" (uuid c62e0b0a-71fc-4a40-a59e-8ac5be3ecbe7))
-    (pin "A7" (uuid 20dffc10-38e2-4900-8e06-d1fbcb6577c1))
-    (pin "B7" (uuid 3f61dbe0-d723-441d-a694-f0c12a4e6485))
-    (pin "B5" (uuid 4965b863-98ef-489b-b3af-5431c03aa8b6))
-    (pin "A9" (uuid 08e901f5-d43e-4f53-afd7-d67881141947))
-    (pin "A6" (uuid b2aca773-2f01-4140-9993-d3548893843b))
-    (pin "B1" (uuid 1cd4844a-d730-41f6-afc9-f5b8c7ca60a2))
-    (pin "B11" (uuid c9a5781a-d7fa-4509-9faf-3b886bceecb3))
     (pin "A1" (uuid c8aa2901-87b4-4248-8366-d45bb6ec767b))
-    (pin "B3" (uuid 5d363dbf-4c8e-4050-8d71-c80ada01609f))
     (pin "A10" (uuid c7027f92-966e-4def-a35e-dcd4bbafb736))
-    (pin "A8" (uuid e1ec18b2-ed9c-4240-ac2b-c05abe176387))
-    (pin "B9" (uuid 8474ee08-9180-4669-b36d-1ad94d3e0eb2))
+    (pin "A11" (uuid c692588a-a0df-4dc5-ad03-4974edb60d1c))
+    (pin "A12" (uuid 033705d1-ce07-4f1e-98d7-93ad3edf52d5))
     (pin "A2" (uuid b64687b8-1906-4459-8204-6fe7c4636e75))
+    (pin "A3" (uuid e6a40a41-e223-46bf-8a1a-df51950ee40a))
     (pin "A4" (uuid ed298999-5daa-44d9-aa43-adeeb06f60ec))
-    (pin "B8" (uuid 34662ed1-a229-43f8-8d5f-7aa99aaf2234))
+    (pin "A5" (uuid c3377ed3-5725-47cb-ba72-fbec6358aff6))
+    (pin "A6" (uuid b2aca773-2f01-4140-9993-d3548893843b))
+    (pin "A7" (uuid 20dffc10-38e2-4900-8e06-d1fbcb6577c1))
+    (pin "A8" (uuid e1ec18b2-ed9c-4240-ac2b-c05abe176387))
+    (pin "A9" (uuid 08e901f5-d43e-4f53-afd7-d67881141947))
+    (pin "B1" (uuid 1cd4844a-d730-41f6-afc9-f5b8c7ca60a2))
+    (pin "B10" (uuid d72826d0-8889-4cda-af83-db67c7dd4300))
+    (pin "B11" (uuid c9a5781a-d7fa-4509-9faf-3b886bceecb3))
+    (pin "B12" (uuid 3e4744e9-794e-437d-bcf5-3b16b174153c))
+    (pin "B2" (uuid c62e0b0a-71fc-4a40-a59e-8ac5be3ecbe7))
+    (pin "B3" (uuid 5d363dbf-4c8e-4050-8d71-c80ada01609f))
     (pin "B4" (uuid a17cf2d9-edc1-4dd5-8ffa-0439f27ed605))
+    (pin "B5" (uuid 4965b863-98ef-489b-b3af-5431c03aa8b6))
+    (pin "B6" (uuid 9d790736-636b-4665-b7c8-363786df6d0b))
+    (pin "B7" (uuid 3f61dbe0-d723-441d-a694-f0c12a4e6485))
+    (pin "B8" (uuid 34662ed1-a229-43f8-8d5f-7aa99aaf2234))
+    (pin "B9" (uuid 8474ee08-9180-4669-b36d-1ad94d3e0eb2))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5549,8 +5377,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 146.05 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d5692aad-1e79-4f1d-aea6-4037f0efa752))
     (pin "1" (uuid 790a68e0-6cbb-45c2-92f7-5b5827ff493c))
+    (pin "2" (uuid d5692aad-1e79-4f1d-aea6-4037f0efa752))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5635,37 +5463,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 355.6 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7c153c29-714e-4ad2-8b57-d88b43303090)
-    (property "Reference" "TP3" (at 356.87 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "+3.3V" (at 356.87 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm" (at 350.52 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 350.52 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "~" (at 355.6 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part #" "~" (at 355.6 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5c88375c-c9bc-4f5f-bc21-d03e54d80c40))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "TP3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 208.28 245.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cbb4dc0-0357-4768-a1cb-f167c27586bd)
@@ -5744,8 +5541,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 52.07 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c8c4cb2e-fc98-440e-9d01-5fb5222ff1d8))
     (pin "1" (uuid f9169e7c-f0d1-45d5-a82a-72a8510180fa))
+    (pin "2" (uuid c8c4cb2e-fc98-440e-9d01-5fb5222ff1d8))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5928,8 +5725,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 40.64 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c95c6fa3-66fb-4cef-bb7b-2cc3e3bbd561))
     (pin "1" (uuid 617ca82e-1404-4a5b-9228-259ab357d16e))
+    (pin "2" (uuid c95c6fa3-66fb-4cef-bb7b-2cc3e3bbd561))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -5985,8 +5782,8 @@
     (property "Part #" "Generic 100K 1% 0402 Resistor" (at 364.49 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 175b3619-7792-496d-9947-d349ebf7eb94))
     (pin "1" (uuid 024a6b86-122e-48c9-bf27-7bc616c28995))
+    (pin "2" (uuid 175b3619-7792-496d-9947-d349ebf7eb94))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6020,16 +5817,16 @@
     (property "Part #" "Generic 2x5 1.27mm SMD Pin Header" (at 180.34 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0f016a13-b05e-453e-b815-8780f6009ea3))
-    (pin "9" (uuid 8b7ced77-aceb-4978-9189-7edf48969e2b))
-    (pin "7" (uuid cc65767a-88d0-451d-8e9b-f6ec72eec0aa))
-    (pin "10" (uuid 7fa492ac-f7e9-450c-b3b7-3f0ee56e9743))
     (pin "1" (uuid 833c0b9f-6a1f-4bdc-badc-41b21d0788b1))
-    (pin "4" (uuid 2d2dcbc8-1cf7-4773-8657-131b89938f15))
-    (pin "6" (uuid 61196327-6d34-4c1c-aecf-aab5b20a4d8b))
+    (pin "10" (uuid 7fa492ac-f7e9-450c-b3b7-3f0ee56e9743))
+    (pin "2" (uuid 0f016a13-b05e-453e-b815-8780f6009ea3))
     (pin "3" (uuid 78f8a321-51f2-4ba3-9470-07381fb0336b))
+    (pin "4" (uuid 2d2dcbc8-1cf7-4773-8657-131b89938f15))
     (pin "5" (uuid c84c7b68-7127-469c-ad73-b01e1129da62))
+    (pin "6" (uuid 61196327-6d34-4c1c-aecf-aab5b20a4d8b))
+    (pin "7" (uuid cc65767a-88d0-451d-8e9b-f6ec72eec0aa))
     (pin "8" (uuid 67598d34-3592-453a-a03b-e3cc727d56ad))
+    (pin "9" (uuid 8b7ced77-aceb-4978-9189-7edf48969e2b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -6135,14 +5932,14 @@
     (property "Part #" "LM3485" (at 339.09 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
+    (pin "1" (uuid a48973d4-d5a9-4418-9e3c-710f5c7f3de1))
+    (pin "2" (uuid 048b317a-b9bb-4eaf-9a04-d710ab55325d))
+    (pin "3" (uuid e23ffd87-4194-4cfb-9b77-ade0b0a2722b))
+    (pin "4" (uuid 00f2c6a3-f90c-48a6-9832-3de0d2c78108))
+    (pin "5" (uuid a833457d-ef9f-40e6-b3df-10e7c5fb486d))
+    (pin "6" (uuid 59005a55-0295-4b58-ad5b-646a9342bd33))
     (pin "7" (uuid e35fd04a-c0bb-4e65-9d87-84e1495b99aa))
     (pin "8" (uuid 9a83e330-c64f-4f08-bf1a-e539616fa41a))
-    (pin "5" (uuid a833457d-ef9f-40e6-b3df-10e7c5fb486d))
-    (pin "1" (uuid a48973d4-d5a9-4418-9e3c-710f5c7f3de1))
-    (pin "6" (uuid 59005a55-0295-4b58-ad5b-646a9342bd33))
-    (pin "3" (uuid e23ffd87-4194-4cfb-9b77-ade0b0a2722b))
-    (pin "2" (uuid 048b317a-b9bb-4eaf-9a04-d710ab55325d))
-    (pin "4" (uuid 00f2c6a3-f90c-48a6-9832-3de0d2c78108))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -6485,8 +6282,8 @@
     (property "Part #" "Generic 3.3K 1% 0402 Resistor" (at 278.13 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7d4a67b3-9607-4a1a-bd58-36ffcaf8a98e))
     (pin "1" (uuid f92b86f1-1def-43e6-bab4-ff841416d95a))
+    (pin "2" (uuid 7d4a67b3-9607-4a1a-bd58-36ffcaf8a98e))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6520,8 +6317,8 @@
     (property "Part #" "Generic 33K 1% 0402 Resistor" (at 364.49 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b000e7fe-bc77-43ce-b902-482a99db8d45))
     (pin "1" (uuid d2a394c5-0190-4d8f-8cd1-ae129d9adbb4))
+    (pin "2" (uuid b000e7fe-bc77-43ce-b902-482a99db8d45))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6615,8 +6412,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 30.48 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 610c8456-a52e-424a-a9d8-dee9b89fa638))
     (pin "1" (uuid 0112eb24-9ddd-4d64-b97c-1480da35270f))
+    (pin "2" (uuid 610c8456-a52e-424a-a9d8-dee9b89fa638))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -6714,8 +6511,8 @@
     (property "Part #" "Generic 15K 1% 0402 Resistor" (at 264.16 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 822b7491-dbf7-4314-8772-afde00213ea4))
     (pin "1" (uuid 20576460-b79c-432c-b3ee-53664cc6245b))
+    (pin "2" (uuid 822b7491-dbf7-4314-8772-afde00213ea4))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6799,8 +6596,8 @@
     (property "Part #" "Generic 100K 1% 0402 Resistor" (at 264.16 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6f836416-fd35-4192-8714-42a1d1d932e8))
     (pin "1" (uuid 529587df-ab2b-404c-a584-b3f4a0081244))
+    (pin "2" (uuid 6f836416-fd35-4192-8714-42a1d1d932e8))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6893,8 +6690,8 @@
     (property "Part #" "Generic 22uF 35V X5R 1206 MLCC" (at 303.53 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 080fb72f-bd86-41a9-aabb-b5e653cfde96))
     (pin "1" (uuid 9a84e2a4-61d8-496d-b94a-b605f08b34dd))
+    (pin "2" (uuid 080fb72f-bd86-41a9-aabb-b5e653cfde96))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -6925,8 +6722,8 @@
     (property "Part #" "Generic 33K 1% 0402 Resistor" (at 364.49 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f993603a-598c-4946-8290-b935c4857676))
     (pin "1" (uuid 958725eb-e05f-4cf1-b6d0-ba5f6a96cbfd))
+    (pin "2" (uuid f993603a-598c-4946-8290-b935c4857676))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -6985,9 +6782,9 @@
     (property "Part #" "~" (at 270.51 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid cbf071d3-ba24-463a-b1d7-6c81237d8805))
-    (pin "2" (uuid 0111baf2-fbf2-4e30-8d8c-9788d4ffc47b))
     (pin "1" (uuid 2ca35bbb-b944-44d2-bb7e-ba33b56fa459))
+    (pin "2" (uuid 0111baf2-fbf2-4e30-8d8c-9788d4ffc47b))
+    (pin "3" (uuid cbf071d3-ba24-463a-b1d7-6c81237d8805))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -7050,8 +6847,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 29.21 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c00be10d-d23a-44bf-befe-bb135059f13b))
     (pin "1" (uuid 94ca48d6-d63e-411d-a01d-b88476d42b72))
+    (pin "2" (uuid c00be10d-d23a-44bf-befe-bb135059f13b))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -7107,8 +6904,8 @@
     (property "Part #" "Generic 3.3K 1% 0402 Resistor" (at 278.13 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 14bb8b49-80cb-46fa-8ba0-459b7a32bf78))
     (pin "1" (uuid b2d53d64-45c3-4436-a2c0-4ce5e9bbba51))
+    (pin "2" (uuid 14bb8b49-80cb-46fa-8ba0-459b7a32bf78))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -7142,8 +6939,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 105.41 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9528d017-40ed-4fff-bab0-e10e57625457))
     (pin "1" (uuid c83a233f-3616-492a-b6af-2fe08d7afb3e))
+    (pin "2" (uuid 9528d017-40ed-4fff-bab0-e10e57625457))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -7199,8 +6996,8 @@
     (property "Part #" "Generic 100uF 6.3V X5R 1206 MLCC" (at 375.92 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9fe63330-0666-4bff-be8c-2a0ddcb9eeab))
     (pin "1" (uuid 28c27869-e7bb-4188-866f-7b7cf3853945))
+    (pin "2" (uuid 9fe63330-0666-4bff-be8c-2a0ddcb9eeab))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -7342,31 +7139,6 @@
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
           (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 355.6 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e9e000b4-3d67-45ea-91a1-0808657fe1a6)
-    (property "Reference" "#PWR052" (at 355.6 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 355.6 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 355.6 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 355.6 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47bd92ea-2a6b-4ed5-999c-744cf8fbba58))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -7543,9 +7315,9 @@
     (property "Part #" "DMP3099L" (at 335.28 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 61f09663-3aaa-4b17-be39-087ff51cca0c))
     (pin "2" (uuid 02fff6e1-50b1-49e8-aeda-15df67c3a592))
     (pin "3" (uuid 8db5e973-5366-4fa3-8a3e-a461aa7a05b0))
-    (pin "1" (uuid 61f09663-3aaa-4b17-be39-087ff51cca0c))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -7658,43 +7430,12 @@
     (property "Part #" "Generic 100uF 6.3V X5R 1206 MLCC" (at 375.92 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4d2aeb82-0ef0-40d4-9013-0d19c0bd9931))
     (pin "1" (uuid 8494492b-7e91-4479-b528-4509585f9f44))
+    (pin "2" (uuid 4d2aeb82-0ef0-40d4-9013-0d19c0bd9931))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
           (reference "C14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 335.28 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd40c145-f25c-418d-a498-40d818a4ff65)
-    (property "Reference" "TP1" (at 336.55 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "+24V" (at 336.55 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm" (at 330.2 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 330.2 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "~" (at 335.28 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part #" "~" (at 335.28 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6ad12449-ad93-4535-bde5-57c6724816a6))
-    (instances
-      (project "rocket2-gse"
-        (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-          (reference "TP1") (unit 1)
         )
       )
     )
@@ -7778,8 +7519,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 74.93 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c2ce7e16-791d-454c-8d36-91a7b923a9a7))
     (pin "1" (uuid fedf5499-97c1-4d0c-9ee1-3e858064aa7f))
+    (pin "2" (uuid c2ce7e16-791d-454c-8d36-91a7b923a9a7))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"

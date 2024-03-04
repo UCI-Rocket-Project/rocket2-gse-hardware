@@ -778,8 +778,8 @@
     (property "Part #" "Generic 1R 2W 1% 2512 Resistor" (at 139.7 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c717647e-39bc-4b55-bb25-df517abb4ea7))
     (pin "1" (uuid ef53f31c-ca65-4fd6-88ee-69f1a92f3f5b))
+    (pin "2" (uuid c717647e-39bc-4b55-bb25-df517abb4ea7))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -834,9 +834,9 @@
     (property "Part #" "DMG3402L" (at 137.16 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid b095c733-a138-4360-b46b-ac88bf25d79f))
     (pin "1" (uuid 71cbdfb9-22b0-4f81-a8cf-29a3d7d812b1))
     (pin "2" (uuid fae9b144-fb13-427e-a42c-a31dee59b42e))
+    (pin "3" (uuid b095c733-a138-4360-b46b-ac88bf25d79f))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1090,8 +1090,8 @@
     (property "Part #" "MMSZ4684T1G" (at 166.37 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 658769b0-08ed-4823-b530-fcfa70c3f77e))
     (pin "1" (uuid fbd403a2-8da7-4509-bcf1-b22a2da5272d))
+    (pin "2" (uuid 658769b0-08ed-4823-b530-fcfa70c3f77e))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1296,8 +1296,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 181.61 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2868b660-3764-4d4a-804e-c5b71edcde4e))
     (pin "1" (uuid 6bdf4f68-121a-426f-84c3-b95fdc471fdb))
+    (pin "2" (uuid 2868b660-3764-4d4a-804e-c5b71edcde4e))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -1404,9 +1404,9 @@
     (property "Part #" "~" (at 121.92 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid c9bcf2f6-f6e2-4184-b3ea-c5993541c0ea))
     (pin "2" (uuid e3169401-e9a3-41d0-b7b4-275c24ea855f))
     (pin "3" (uuid f705d053-50b0-4a80-9738-e1277bb1f05b))
-    (pin "1" (uuid c9bcf2f6-f6e2-4184-b3ea-c5993541c0ea))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1461,8 +1461,8 @@
     (property "Part #" "Generic 10K 1% 0402 Resistor" (at 124.46 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cabaf64b-6966-467a-bebd-0a8f933c3287))
     (pin "1" (uuid 7bc9abca-1e0f-4d50-9f40-7e48eb064f11))
+    (pin "2" (uuid cabaf64b-6966-467a-bebd-0a8f933c3287))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1676,9 +1676,9 @@
     )
     (pin "1" (uuid 26fae1ee-02ae-4c4f-bd93-b4bb52c1acde))
     (pin "2" (uuid 35f11271-af91-4072-97dd-d06c76af544e))
-    (pin "5" (uuid 6ea3419c-e032-4957-ae3c-bb1726f6723e))
     (pin "3" (uuid 268e3ca7-e63a-4ea8-b4ab-0be6be9f0c1b))
     (pin "4" (uuid 10327671-740e-4484-a578-41176aeff6dd))
+    (pin "5" (uuid 6ea3419c-e032-4957-ae3c-bb1726f6723e))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"

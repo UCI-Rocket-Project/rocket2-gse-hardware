@@ -687,9 +687,9 @@
     (property "Part #" "~" (at 102.87 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 11987541-19ae-4d6b-b4b3-ecf89b2a94cd))
     (pin "2" (uuid d807bcce-a82e-4480-9ec1-d213f1e1eb49))
     (pin "3" (uuid b6fde19a-c955-47b1-b03b-b8ba03d8bc46))
-    (pin "1" (uuid 11987541-19ae-4d6b-b4b3-ecf89b2a94cd))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -870,8 +870,8 @@
     (property "Part #" "Generic 10K 1% 0402 Resistor" (at 173.99 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9f992c53-1707-4656-9949-475d73e8dfbd))
     (pin "1" (uuid 7a14732e-3ce0-47f2-b18a-d115ea883254))
+    (pin "2" (uuid 9f992c53-1707-4656-9949-475d73e8dfbd))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1104,8 +1104,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 143.51 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ec61c747-06cf-4b10-a876-e9e81ac9c1bb))
     (pin "1" (uuid 31d304d3-4138-4ad4-a9ff-ad2e662a2e2a))
+    (pin "2" (uuid ec61c747-06cf-4b10-a876-e9e81ac9c1bb))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -1245,8 +1245,8 @@
     (property "Part #" "Generic 5K 1% 0402 Resistor" (at 173.99 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 52141c8d-7d51-464c-864b-5b73af3afa3f))
     (pin "1" (uuid ce2b182d-e566-454a-8be1-bcaa40a9725c))
+    (pin "2" (uuid 52141c8d-7d51-464c-864b-5b73af3afa3f))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"
@@ -1297,9 +1297,9 @@
     )
     (pin "1" (uuid b0e3ecc9-c05c-4e76-b11b-19f29eef63f8))
     (pin "2" (uuid d5d68042-41e6-407f-b905-4eac3abe6b1e))
-    (pin "5" (uuid 0bb4484b-52f3-402e-8ed0-e42dea0ba7c8))
     (pin "3" (uuid c78d6835-00ee-4437-a0f2-3e1272f1630b))
     (pin "4" (uuid 4e0a1fa9-962f-43a1-a4d3-7d488284a275))
+    (pin "5" (uuid 0bb4484b-52f3-402e-8ed0-e42dea0ba7c8))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895/c5ff2e84-83f2-4a3b-a723-4a8fafb17516"

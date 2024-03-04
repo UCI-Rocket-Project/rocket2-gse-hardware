@@ -600,13 +600,13 @@
     (property "Part #" "MAX31855" (at 152.4 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "6" (uuid 63921d88-501d-4c59-8b6b-e396f0f36a89))
-    (pin "2" (uuid 631ef649-e29d-42f8-8931-75605cc7d40d))
-    (pin "4" (uuid 070a9ffb-9d50-490c-83a7-c96537f445aa))
     (pin "1" (uuid 5d0bc9c1-d3df-4853-9dc6-1c6587a93e8e))
-    (pin "7" (uuid e4f1846e-eced-4994-b794-2ad1ec27a91f))
+    (pin "2" (uuid 631ef649-e29d-42f8-8931-75605cc7d40d))
     (pin "3" (uuid 3359a54f-5673-4549-a015-83badabb34da))
+    (pin "4" (uuid 070a9ffb-9d50-490c-83a7-c96537f445aa))
     (pin "5" (uuid 01fd9c44-cad3-4717-9bef-d29bad207329))
+    (pin "6" (uuid 63921d88-501d-4c59-8b6b-e396f0f36a89))
+    (pin "7" (uuid e4f1846e-eced-4994-b794-2ad1ec27a91f))
     (pin "8" (uuid b1efe69f-8bf5-4f8a-893f-a26d703e0577))
     (instances
       (project "rocket2-gse"
@@ -810,8 +810,8 @@
     (property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC" (at 152.4 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 43e0b41e-fc75-4bbf-8041-bbf372c92afb))
     (pin "1" (uuid 4cdb6a95-5d26-4300-9dbd-6ce0c20b0f7e))
+    (pin "2" (uuid 43e0b41e-fc75-4bbf-8041-bbf372c92afb))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
@@ -927,8 +927,8 @@
     (property "Part #" "Generic 10nF 6.3V X7R 0402 MLCC" (at 120.65 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f7de9ca6-7e0d-4913-b104-410a8afc8943))
     (pin "1" (uuid 7f0caf12-0162-441b-a324-703b231463bf))
+    (pin "2" (uuid f7de9ca6-7e0d-4913-b104-410a8afc8943))
     (instances
       (project "rocket2-gse"
         (path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
